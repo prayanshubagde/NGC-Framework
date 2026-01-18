@@ -125,6 +125,15 @@ Complete worked examples showing the universal M2 engine applied to different do
 - **[7.4 Cross-Domain Comparison](7_Cross_Domain_Demonstrations/7.4_Cross_Domain_Comparison.md):** Knowledge transfer through geometric analogy
 - **[7.5 Scaffolding Construction Test](7_Cross_Domain_Demonstrations/7.5_Scaffolding_Construction_Test.md):** Validation of the construction methodology on urban transportation
 
+### 8. Reference Implementation
+
+Pseudocode reference for the core NGC and PSMSL algorithms, providing a language-agnostic implementation guide:
+
+- **[8.1 NGC Core Pseudocode](8_Reference_Implementation/8.1_NGC_Core_Pseudocode.md):** Core algorithms including graph creation, spectral analysis, and Leibniz-Bocker diagnostics
+- **[8.2 PSMSL Pseudocode](8_Reference_Implementation/8.2_PSMSL_Pseudocode.md):** Dual-field architecture and binocular computation
+
+These pseudocode documents show the logic without revealing production code, serving as both educational resources and copyright documentation.
+
 ---
 
 ## Key Results
