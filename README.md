@@ -76,6 +76,8 @@ The physics and mathematics underlying NGC.
 - **[2.3 Spin Interpretation](2_Foundational_Theory/2.3_Spin_Interpretation.md):** NGC as universal spin computation with Δ as fundamental spin asymmetry
 - **[2.4 The Leibniz-Bocker Framework](2_Foundational_Theory/2.4_The_Leibniz_Bocker_Framework.md):** The operational calculus for geometric computation
 - **[2.5 From Planck to Language](2_Foundational_Theory/2.5_From_Planck_to_Language.md):** The complete 12-step causal chain from quantum foam to human language
+- **[2.6 Parallax and Dual-Field Computation](2_Foundational_Theory/2.6_Parallax_and_Dual_Field_Computation.md):** How binocular vision emerges from dual-field spin computation
+- **[2.7 Spin Computation on Classical Hardware](2_Foundational_Theory/2.7_Spin_Computation_on_Classical_Hardware.md):** A practical path to spin computation on existing hardware
 
 ### 3. The NGC Framework
 
