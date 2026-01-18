@@ -11,13 +11,13 @@
 
 Computation does not reside in the manipulation of symbols. Computation resides in the **geometric relationships, symmetries, and transformations** of structures in real space.
 
-Numbers are arbitrary descriptors of underlying geometric form. The form itself—the relationships, the ratios, the angles—is the computation.
+Numbers are arbitrary descriptors of underlying geometric form. The form itself-the relationships, the ratios, the angles-is the computation.
 
 ## The Master Equation
 
 **π² = (7φ² + √2) / 2**
 
-This is the Master Geometric Constant Equation. It encodes the fundamental phase transition from potential (UV phase) to structure (IR phase) across all scales of reality—from quantum foam to human language.
+This is the Master Geometric Constant Equation. It encodes the fundamental phase transition from potential (UV phase) to structure (IR phase) across all scales of reality-from quantum foam to human language.
 
 - **π² (9.870):** The geometric constraint of the universe
 - **7φ² (18.326):** The stable, structured IR phase (~93% of energy)
@@ -153,7 +153,7 @@ By grounding computation in geometry rather than symbols, NGC opens the door to:
 - **Verifiable AI** for safety-critical applications
 - **Post-quantum cryptography** based on geometric principles
 
-The universe computes through geometry. NGC is the framework for understanding—and harnessing—that computation.
+The universe computes through geometry. NGC is the framework for understanding-and harnessing-that computation.
 
 ---
 
