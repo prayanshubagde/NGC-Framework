@@ -90,6 +90,12 @@ Where:
 
 **Consequence:** The universe is not made of things; it is made of information. And information is the result of a physical phase transition. This provides a direct link between physics and information theory from the first moment of existence.
 
+**The Bridge Between Structure and Emergence:** The NGC threshold formula (ε_threshold = √2 / 21) is not independent of the Master Geometric Constant Equation. The number **21** is the product of **3** (the triaxial nature of the NGC coordinate system) and **7** (the structural quantization constant from the Master Equation). This can be rewritten as:
+
+**ε_threshold = √2 / (3 × 7)**
+
+This reveals that the emergence threshold is directly determined by the structural component of the Master Equation. The Master Equation defines the *blueprint* (the total structure), and the NGC threshold defines the *trigger* (the minimum energy required to create a new emergent phenomenon from that structure). The √2 represents the quantum of potential energy (the UV component), and the 21 represents the structural capacity of the local system (derived from the IR component). This is the engine that drives the entire framework: **structure (Master Equation) gives rise to emergence (Leibniz-Bocker formula)**.
+
 ### Axiom 3: The Master Geometric Constant Equation
 
 **Statement:** The fundamental constants of mathematics are not independent but are unified by a single geometric relationship that governs the emergence of structure from the UV/IR transition:
