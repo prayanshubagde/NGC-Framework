@@ -104,6 +104,14 @@ The path to correct AGI through formal module specifications.
 - **[5.7 AGI Architecture Integration](5_Modular_Architecture/5.7_AGI_Architecture_Integration.md):** Complete integration document showing how NGC enables correct AGI
 - **[5.8 NGC for CoLang Proposal](5_Modular_Architecture/5.8_NGC_for_CoLang_Proposal.md):** Proposal for applying NGC to Tyler Fischella's CoLang project
 
+### 6. Barycentric Scaffolding
+
+The mandatory geometric substrate for all NGC computations.
+
+- **[6.1 Scaffolding Construction Methodology](6_Barycentric_Scaffolding/6.1_Scaffolding_Construction_Methodology.md):** Formal methodology for constructing barycentric trees for any domain
+- **[6.2 Domain-Specific Trees](6_Barycentric_Scaffolding/6.2_Domain_Specific_Trees.md):** Complete examples for agriculture, healthcare, finance, energy, and materials science
+- **[6.3 Concept Mapping and Validation](6_Barycentric_Scaffolding/6.3_Concept_Mapping_and_Validation.md):** Algorithm for mapping concepts to barycentric coordinates and validation protocol
+
 ---
 
 ## Key Results
