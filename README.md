@@ -90,6 +90,20 @@ Proof that the theory works.
 - **[4.2 Test Results and Validation](4_Validation_and_Applications/4.2_Test_Results_and_Validation.md):** 5 real-world test cases with 100% success rate
 - **[4.3 Practical Applications for Basic Needs](4_Validation_and_Applications/4.3_Practical_Applications_for_Basic_Needs.md):** How NGC helps meet fundamental human needs (food, water, energy, shelter, healthcare)
 
+### 5. Modular Architecture
+
+The path to correct AGI through formal module specifications.
+
+- **[5.0 AGI Roadmap](5_Modular_Architecture/5.0_AGI_Roadmap.md):** The strategic roadmap from NGC to correct AGI architecture
+- **[5.1 Modular Architecture Overview](5_Modular_Architecture/5.1_Modular_Architecture_Overview.md):** High-level architecture, data flow, and module interfaces
+- **[5.2 M1: NGC Module](5_Modular_Architecture/5.2_M1_NGC_Module.md):** The physics layer providing geometric primitives and validation
+- **[5.3 M2: PSMSL Module](5_Modular_Architecture/5.3_M2_PSMSL_Module.md):** The relational processing engine (5x more memory-efficient)
+- **[5.4 M3: CoLang Module](5_Modular_Architecture/5.4_M3_CoLang_Module.md):** The human-computer interface for geometric thought
+- **[5.5 M4: Foresight Module](5_Modular_Architecture/5.5_M4_Foresight_Module.md):** Civilizational intelligence and phase mismatch detection
+- **[5.6 Physics Alignment Verification](5_Modular_Architecture/5.6_Physics_Alignment_Verification.md):** Verification that modular architecture preserves all physics principles
+- **[5.7 AGI Architecture Integration](5_Modular_Architecture/5.7_AGI_Architecture_Integration.md):** Complete integration document showing how NGC enables correct AGI
+- **[5.8 NGC for CoLang Proposal](5_Modular_Architecture/5.8_NGC_for_CoLang_Proposal.md):** Proposal for applying NGC to Tyler Fischella's CoLang project
+
 ---
 
 ## Key Results
