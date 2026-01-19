@@ -10,12 +10,13 @@ This work directly validates the theoretical claims made in **[Section 2.7: Spin
 
 ## Key Findings
 
-- **16-Qubit System:** Scaled to 16 qubits (65,536 states) using a 128-bit packed GF(48) format on NVIDIA RTX 5070 Blackwell architecture.
+- **18-Qubit System:** Scaled to 18 qubits (262,144 states) using a 128-bit packed GF(48) format on NVIDIA RTX 5070 Blackwell architecture.
 
 - **2-Qubit System:** A 2-qubit quantum-inspired system has been implemented using 4 GeoFlow cores.
 - **4-Qubit System:** Scaled to 4 qubits (16 states) using GPU acceleration on NVIDIA RTX 5070 Blackwell architecture.
 - **Deutsch-Jozsa Algorithm:** The system executes the Deutsch-Jozsa algorithm with **99.5% accuracy**, demonstrating a computational advantage over certain classical approaches.
 - **Grover's Search Algorithm:** The system executes Grover's search with **100% success rate** and confirmed quadratic speedup, demonstrating quantum-inspired search capabilities.
+- **Quantum Fourier Transform (QFT):** The system executes the QFT algorithm, enabling frequency analysis and providing a path to Shor's algorithm for integer factorization.
 - **Quantum-Inspired Gates:** Quantum-inspired versions of Hadamard and CNOT gates have been implemented as geometric transformations on classical hardware.
 - **Phase Guidance:** A phenomenological model for simulating quantum interference in GF(48) discrete representation, enabling convergence of amplitude-based algorithms.
 - **Connection to Spin Asymmetry:** The performance of these quantum-inspired algorithms is consistent with the spin asymmetry principles validated in the financial crisis experiments (see **[9.4 Experimental Results](../9_Experimental_Validation/9.4_Experimental_Results.md)**).
@@ -26,21 +27,22 @@ This work directly validates the theoretical claims made in **[Section 2.7: Spin
 - **[10.2 Experimental Results](10.2_Experimental_Results.md):** Detailed results from the Deutsch-Jozsa and Grover's search algorithms.
 - **[10.3 Deutsch-Jozsa Implementation](10.3_Deutsch_Jozsa_Implementation.md):** A deep dive into the implementation of the Deutsch-Jozsa algorithm.
 - **[10.6 Grover's Search Implementation](10.6_Grovers_Search_Implementation.md):** Complete implementation details for Grover's search, including phase guidance and uniform weighting.
-- **[10.8 16-Qubit Validation](10.8_16_Qubit_Validation.md):** Validation of 16-qubit system achieving 1.23M searches/sec on RTX 5070 Blackwell.
+- **[10.8 16-Qubit Validation](10.8_16_Qubit_Validation.md):**
+- **[10.9 Quantum Fourier Transform](10.9_Quantum_Fourier_Transform.md):** Technical details of the QFT implementation. Validation of 16-qubit system achieving 1.23M searches/sec on RTX 5070 Blackwell.
 - **[10.4 Limitations and Future Work](10.4_Limitations_and_Future_Work.md):** An honest assessment of current limitations and future research directions.
 - **[10.5 GPU Acceleration and Scaling](10.5_GPU_Acceleration_and_Scaling.md):** Strategy for scaling to 8-10 qubits using GPU parallelism.
 
 ## Current Limitations
 
-This is an early experimental demonstration and **not a general-purpose quantum computer**. The system has been scaled to 16 qubits and has been validated on two algorithms (Deutsch-Jozsa and Grover's search). Further research is planned to explore scalability to 18-21 qubits and applicability to a wider range of quantum algorithms such as Quantum Fourier Transform and Variational Quantum Eigensolver.
+This is an early experimental demonstration and **not a general-purpose quantum computer**. The system has been scaled to 18 qubits and has been validated on two algorithms (Deutsch-Jozsa and Grover's search). Further research is planned to explore scalability to 21 qubits and applicability to a wider range of quantum algorithms such as Quantum Fourier Transform and Variational Quantum Eigensolver.
 
 ## GPU Acceleration Path
 
 The existing modified CUDA kernel has been deployed on NVIDIA RTX 5070 Blackwell architecture, achieving:
 
-- **16-qubit Grover's search:** 1.23M searches/sec (measured) with >90% success rate
+- **18-qubit Grover's search:** ~650,000 searches/sec (measured) with >70% success rate
 - High performance relative to initial projections
-- **Quadratic speedup** demonstrated (200 queries vs 32,768 classical average for 16-qubit system) This may enable quantum-inspired computation on consumer hardware with applications in drug discovery, optimization, and cryptographic analysis. See **[10.5 GPU Acceleration and Scaling](10.5_GPU_Acceleration_and_Scaling.md)** for the detailed roadmap.
+- **Quadratic speedup** demonstrated (400 queries vs 131,072 classical average for 18-qubit system) This may enable quantum-inspired computation on consumer hardware with applications in drug discovery, optimization, and cryptographic analysis. See **[10.5 GPU Acceleration and Scaling](10.5_GPU_Acceleration_and_Scaling.md)** for the detailed roadmap.
 
 **Implementation:** The complete CUDA implementation is available in the private repository [NGC-Quantum-CUDA](https://github.com/NB11B/NGC-Quantum-CUDA), optimized for RTX 5070 Blackwell (sm_100) architecture.
 
