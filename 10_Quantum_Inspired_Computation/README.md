@@ -21,10 +21,15 @@ This work directly validates the theoretical claims made in **[Section 2.7: Spin
 - **[10.2 Experimental Results](10.2_Experimental_Results.md):** Detailed results from the Deutsch-Jozsa algorithm and spin asymmetry tests.
 - **[10.3 Deutsch-Jozsa Implementation](10.3_Deutsch_Jozsa_Implementation.md):** A deep dive into the implementation of the algorithm.
 - **[10.4 Limitations and Future Work](10.4_Limitations_and_Future_Work.md):** An honest assessment of current limitations and future research directions.
+- **[10.5 GPU Acceleration and Scaling](10.5_GPU_Acceleration_and_Scaling.md):** Strategy for scaling to 8-10 qubits using GPU parallelism.
 
 ## Current Limitations
 
 This is an early experimental demonstration and **not a general-purpose quantum computer**. The system is currently limited to a small number of qubits and has been validated on a specific algorithm. Further research is required to explore its scalability and applicability to a wider range of quantum algorithms.
+
+## GPU Acceleration Path
+
+The existing modified CUDA kernel can be leveraged to scale the system from 2 qubits to 8-10 qubits using GPU parallelism. This would enable practical quantum-inspired computation on consumer hardware (e.g., NVIDIA RTX GPUs) with applications in drug discovery, optimization, and cryptographic analysis. See **[10.5 GPU Acceleration and Scaling](10.5_GPU_Acceleration_and_Scaling.md)** for the detailed roadmap.
 
 ---
 
